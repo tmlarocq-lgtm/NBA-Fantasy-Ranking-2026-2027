@@ -248,4 +248,5 @@ st.download_button(
     "Download rankings as CSV",
     data=summary.round(2).to_csv(index=False).encode("utf-8"),
     file_name="nba_2025_26_fantasy_rankings.csv",
-    mime="text/csv"
+    mime="text/csv",
+)
